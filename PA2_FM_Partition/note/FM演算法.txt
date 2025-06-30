@@ -1,0 +1,27 @@
+gain=原本的cutsize-移動該cell後的cutsize(定義正確)
+//FM要用bucket list
+ 建立 Bucket List 結構，將每個 cell 放入對應的 Gain bucket(如圖)
+//需要開一個vector紀錄"依照當前的partition"，移動每個cell的cut size&該cell在這倫是否被移動過&移動後是否合法
+ 
+
+初始化兩個 Partition (A 與 B) 且讓其平衡
+
+FM_Partition(G)  
+
+while(//當內層跑完一輪後total gain不大於0){
+//根據當前最好的partition更新bucket list.
+
+	while(還有尚未鎖上的cell){
+		//從bucket list中抓max gain cell(且未上鎖  不一定要合法才能移動 )
+      		//將 cell 從原來的 partition 移到另一邊
+            	//鎖定該 cell，不再考慮其移動
+            	//更新其鄰近 cell 的 Gain 並更新 Bucket List
+	}
+	
+	//將 Partition 還原至最佳 cutsize 且該partition合法的步驟
+
+}
+
+//TA: 過程沒有一定，解是合法即可
+//可解釋且解合法即可
+//要有bucket list且要是FM

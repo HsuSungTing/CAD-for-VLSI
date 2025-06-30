@@ -1,0 +1,5 @@
+sub_module is updated to new_sub_module.
+#1 input_a is renamed.
+#2 input_b is renamed.
+#3 control2 is renamed to flag_x.
+#4 output_y is renamed to result.

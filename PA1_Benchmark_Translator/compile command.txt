@@ -1,0 +1,43 @@
+在window上測試:
+g++ -o PA1_ver11 PA1_ver11.cpp
+./PA1_ver11 input.txt output.txt
+
+g++ -o 110501521_PA1 110501521_PA1.cpp
+./110501521_PA1 input.txt output.txt
+
+g++ -o 110501521_PA1 110501521_PA1.cpp
+./110501521_PA1 c432.netlist c432.v
+
+
+
+在工作站上(compile+check):
+工作站帳號: s110501521
+工作站密碼: eason1024
+
+g++ -std=c++11 110501521_PA1.cpp -o 110501521_PA1
+./110501521_PA1 c17.netlist c17.v
+source /usr/cad/cadence/CIC/incisiv.cshrc
+source /usr/cad/synopsys/CIC/verdi.cshrc
+ncverilog +access+r c17_testbench.v c17.v
+
+
+g++ -std=c++11 110501521_PA1.cpp -o 110501521_PA1
+./110501521_PA1 c432.netlist c432.v
+source /usr/cad/cadence/CIC/incisiv.cshrc
+source /usr/cad/synopsys/CIC/verdi.cshrc
+ncverilog +access+r c432_testbench.v c432.v
+
+
+g++ -std=c++11 110501521_PA1.cpp -o 110501521_PA1
+./110501521_PA1 testcase_1.netlist testcase_1.v
+./110501521_PA1 testcase_2.netlist testcase_2.v
+./110501521_PA1 testcase_3.netlist testcase_3.v
+./110501521_PA1 testcase_4.netlist testcase_4.v
+
+
+
+
+g++ -std=c++PA2_ver21.cpp -o PA2_ver21
+./PA2_ver21 
+
+

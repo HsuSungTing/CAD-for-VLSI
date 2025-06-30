@@ -1,0 +1,44 @@
+vector<node_ptr> initialization(){
+    vector<node_ptr> node_vec;
+    node_ptr M0=make_shared<node>();
+    M0->id=0; M0->name="MM0"; M0->candidate_idx=0; M0->candidate.push_back(build_macro(1.1,1.1,1,1));
+    node_vec.push_back(M0);
+
+    node_ptr M1=make_shared<node>();
+    M1->id=1; M1->name="MM1"; M1->candidate_idx=0; M1->candidate.push_back(build_macro(1.5,2.2,2,1));
+    node_vec.push_back(M1);
+
+    node_ptr M2=make_shared<node>();
+    M2->id=2; M2->name="MM2"; M2->candidate_idx=0; M2->candidate.push_back(build_macro(1.7,3.3,1,2));
+    node_vec.push_back(M2);
+
+    node_ptr M3=make_shared<node>();
+    M3->id=3; M3->name="MM3"; M3->candidate_idx=0; M3->candidate.push_back(build_macro(3.1,1.5,2,1));
+    node_vec.push_back(M3);
+
+    node_ptr M4=make_shared<node>();
+    M4->id=4; M4->name="MM4"; M4->candidate_idx=0; M4->candidate.push_back(build_macro(2.93,11.08,2,2));
+    node_vec.push_back(M4);
+
+    node_ptr M5 = make_shared<node>();
+    M5->id = 5; M5->name = "MM5"; M5->candidate_idx = 0;
+    M5->candidate.push_back(build_macro(3.5, 3.5, 1, 1));
+    node_vec.push_back(M5);
+
+    node_ptr M6 =make_shared<node>();
+    M6->id = 6; M6->name = "MM6"; M6->candidate_idx = 0;
+    M6->candidate.push_back(build_macro(2.2, 16.3, 1, 2));
+    node_vec.push_back(M6);
+
+    node_ptr M7 =make_shared<node>();
+    M7->id = 7; M7->name = "MM7"; M7->candidate_idx = 0;
+    M7->candidate.push_back(build_macro(8.1, 1.5, 5, 1));
+    node_vec.push_back(M7);
+
+    node_ptr M8 =make_shared<node>();
+    M8->id = 7; M8->name = "MM8"; M8->candidate_idx = 0;
+    M8->candidate.push_back(build_macro(18.1, 5.1, 5, 1));
+    node_vec.push_back(M8);
+
+    return node_vec;
+}

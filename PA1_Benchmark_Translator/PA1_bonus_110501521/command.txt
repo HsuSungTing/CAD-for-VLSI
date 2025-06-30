@@ -1,0 +1,23 @@
+report_area > c432_130nm.area
+report_power > c432_130nm.power
+change_names -hierarchy -rules verilog
+write_sdf -version 2.1 -load_delay cell  c432_130nm_syn.sdf
+
+
+report_area > c432_16nm.area
+report_power > c432_16nm.power
+change_names -hierarchy -rules verilog
+write_sdf -version 2.1 -load_delay cell  c432_16nm_syn.sdf
+
+
+
+//驗證
+
+source /usr/cad/synopsys/CIC/verdi.cshrc
+source /usr/cad/cadence/CIC/incisiv.cshrc
+ncverilog c432_testbench.v c432_16nm_syn.v /home/adfp_tools/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/VERILOG/N16ADFP_StdCell.v +define+SDF
+
+
+source /usr/cad/synopsys/CIC/verdi.cshrc
+source /usr/cad/cadence/CIC/incisiv.cshrc
+ncverilog c432_testbench.v c432_130nm_syn.v /home/tools/designkit/CBDK_IC_Contest_v2.1/Verilog/tsmc13.v +define+SDF

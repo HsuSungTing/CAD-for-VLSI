@@ -1,0 +1,66 @@
+g++ 110501521_PA3.cpp liberty_parser.cpp RTL_parser.cpp -o 110501521_PA3
+./110501521_PA3 c17.v test_lib.lib
+./110501521_PA3 example.v test_lib.lib
+./110501521_PA3 c17_v2.v test_lib.lib
+./110501521_PA3 c17_v3.v test_lib.lib
+./110501521_PA3 c17_v4.v test_lib.lib
+./110501521_PA3 c17_v5.v test_lib.lib
+./110501521_PA3 c17_v6.v test_lib.lib
+
+
+g++ 110501521_PA3.cpp liberty_parser.cpp RTL_parser.cpp -o 110501521_PA3
+./110501521_PA3 c17.v test_lib.lib
+./110501521_PA3 example.v test_lib.lib
+./110501521_PA3 c17_v2.v test_lib.lib
+./110501521_PA3 c17_v3.v test_lib.lib
+
+
+//在windows，把所有.cpp .h都放到和main.cpp相同的層級
+g++ 110501521_PA3.cpp liberty_parser.cpp RTL_parser.cpp -o 110501521_PA3
+
+./110501521_PA3 c17.v test_lib.lib
+
+./110501521_PA3 example.v test_lib.lib
+
+./110501521_PA3 c17_v3.v test_lib.lib
+
+
+//在工作站
+make all
+
+make run input=c17.v 
+./PA3_checker c17.v test_lib.lib Load_110501521_c17.txt Delay_110501521_c17.txt Path_110501521_c17.txt
+
+
+
+make run input=example.v
+./PA3_checker example.v test_lib.lib Load_110501521_example.txt Delay_110501521_example.txt Path_110501521_example.txt
+
+
+
+make run input=c17_v2.v 
+./PA3_checker  c17_v2.v test_lib.lib Load_110501521_c17_v2.txt Delay_110501521_c17_v2.txt  Path_110501521_c17_v2.txt
+
+
+
+make run input=c17_v3.v 
+./PA3_checker  c17_v3.v test_lib.lib Load_110501521_c17_v3.txt Delay_110501521_c17_v3.txt Path_110501521_c17_v3.txt
+
+
+
+
+make run input=c17_v5.v 
+./PA3_checker  c17_v5.v test_lib.lib Load_110501521_c17_v5.txt Delay_110501521_c17_v5.txt Path_110501521_c17_v5.txt
+
+
+
+make run input=c17_v6.v 
+./PA3_checker  c17_v6.v test_lib.lib Load_110501521_c17_v6.txt Delay_110501521_c17_v6.txt Path_110501521_c17_v6.txt
+
+make clean
+
+壓縮資料夾
+tar -czvf 110501521_PA3.tar 110501521_PA3
+
+解壓縮
+tar -xvf 110501521_PA3.tar

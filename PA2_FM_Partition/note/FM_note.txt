@@ -1,0 +1,44 @@
+//一樣保持cell_set，計算cutsize的function都繼續使用本來就不用動
+//不過cell_set中vector的部分可以更新成
+
+struct cell_node_of_bucket_list{
+	int gain;
+	int cell_id;
+	struct cell_node_of_bucket_list *ptr;
+}
+
+struct bucket_list_node{
+	int gain;	//中間等於0
+	int index;	//在bucket_list中的index
+	struct cell_node_of_bucket_list *ptr
+}
+
+struct bucket_list{
+	struct bucket_list_node* max_gain_node_ptr;
+	vector <struct bucket_list_node *> bucket_list;
+}
+
+
+struct bucket_list  bucket_list_part_A;
+unordered_map<int,struct cell_node_of_bucket_list*> cell_id_to_node_map_part_A 
+
+struct bucket_list  bucket_list_part_B;
+unordered_map<int,struct cell_node_of_bucket_list*> cell_id_to_node_map_part_B
+
+
+
+void construct_bucket_list(){
+	//找到cell中持有net的最大數為gain的上限
+	//依照cell_set中有的cell建構bucket_list_part_A和bucket_list_part_B
+	//找到max_gain_cell並更新max_gain_node_ptr
+}
+
+void update_bucket_list(){
+	//用cell_set比對後，找到其他也持有相同net的cell
+	//更新這些cell的gain(就重新用calculate_cutsize重算就好，沒優化根本沒差)
+}
+
+void swap_node(node_to_swap){
+	//把node_to_swap從bucket_list_part_A移動到bucket_list_part_B(或反之)
+	//更新max_gain_node_ptr(如果該cell_node的下面在bucket_list中還有node，就往下移，反之往index更小的方向後移)
+}

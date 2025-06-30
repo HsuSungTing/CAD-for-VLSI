@@ -1,0 +1,10 @@
+step 3:考完試以前不准寫....乖
+
+//找出所有primary output wire(在建構dependency時就可以找，step 2找也可以。都可以)
+//往回看:
+遇到wire: 因為wire只有一個input gate，就是那個
+遇到gate: 因為gate可能有兩個input wire，但我們在find_input_transition_time_and_update_gate_start_time已經紀錄最晚到達的wire了，就取那個wire
+
+ver 12是最正確的版本
+
+這邊都是沒有用smart ptr的版本

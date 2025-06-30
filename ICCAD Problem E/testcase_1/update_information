@@ -1,0 +1,23 @@
+sub_module1 is updated to new_sub_module1.
+#1 in1 is renamed to new_in2.
+#2 in2 is renamed to new_in3.
+#3 cin is renamed to new_in1.
+#4 sum is renamed to new_out1.
+
+sub_module2 is updated to new_sub_module2.
+#1 in1 is renamed.
+#2 in2 is renamed.
+#3 in3 is renamed to new_in3.
+#4 out1 is renamed to new_out1.
+#5 out2 is renamed.
+
+sub_module3 is updated to new_sub_module3.
+#1 in1 is renamed.
+#2 in2 is renamed.
+#3 in3 is renamed.
+#4 x1 is renamed.
+#5 x2 is renamed.
+#6 x3 is renamed.
+#7 out1 is renamed.
+#8 out2 is renamed.
+

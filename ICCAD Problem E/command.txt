@@ -1,0 +1,23 @@
+g++ -std=c++11 -o AST_CP3 AST_CP3.cpp
+./AST_CP3
+
+
+g++ -std=c++11 -o AST_CP3_ver2 AST_CP3_ver2.cpp
+./AST_CP3_ver2
+
+
+g++ -std=c++11 -o CAD CAD.cpp
+./CAD top_module.v sub_module.v new_sub_module.v update_information new_top_module.v
+
+
+g++ -std=c++11 -o CAD_ver2 CAD_ver2.cpp
+./CAD_ver2 top_module.v sub_module.v new_sub_module.v update_information new_top_module.v
+
+
+g++ CAD.cpp AST.cpp -o CAD
+./CAD top_module.v sub_module_0.v new_sub_module_0.v update_information new_top_module.v
+./CAD top_module.v sub_module_1.v new_sub_module_1.v update_information new_top_module.v
+./CAD top_module.v sub_module_2.v new_sub_module_2.v update_information new_top_module.v
+./CAD top_module.v sub_module_3.v new_sub_module_3.v update_information new_top_module.v
+./CAD top_module.v sub_module_4.v new_sub_module_4.v update_information new_top_module.v
+./CAD top_module.v sub_module_5.v new_sub_module_5.v update_information new_top_module.v

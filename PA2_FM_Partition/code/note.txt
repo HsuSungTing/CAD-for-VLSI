@@ -1,0 +1,3 @@
+PA2_ver28_ask_TA.cpp是這邊能動且最快的
+PA2_ver30_ask_TA.cpp是這邊能動且最快的
+PA2_ver31_ask_TA.cpp(有加入寫檔)

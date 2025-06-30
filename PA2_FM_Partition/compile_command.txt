@@ -1,0 +1,40 @@
+g++ -o PA2_ver25_keep PA2_ver25_keep.cpp
+./PA2_ver25_keep
+
+g++ -o PA2_ver26 PA2_ver26.cpp
+./PA2_ver26
+
+g++ -o PA2_ver26_ask_TA  PA2_ver26_ask_TA.cpp
+./PA2_ver26_ask_TA
+
+g++ -o PA2_ver27_ask_TA  PA2_ver27_ask_TA.cpp
+./PA2_ver27_ask_TA
+
+g++ -o PA2_ver28_ask_TA  PA2_ver28_ask_TA.cpp
+./PA2_ver28_ask_TA
+
+g++ -o PA2_ver29_ask_TA  PA2_ver29_ask_TA.cpp
+./PA2_ver29_ask_TA
+
+g++ -o PA2_ver30_ask_TA  PA2_ver30_ask_TA.cpp
+./PA2_ver30_ask_TA
+
+g++ -o PA2_ver31_ask_TA  PA2_ver31_ask_TA.cpp
+./PA2_ver31_ask_TA
+
+g++ -o PA2_ver32_ask_TA  PA2_ver32_ask_TA.cpp
+./PA2_ver32_ask_TA input.txt output.txt
+
+g++ -o PA2_ver33_ask_TA  PA2_ver33_ask_TA.cpp
+./PA2_ver33_ask_TA input.txt output.txt
+
+g++ -o PA2_ver34_ask_TA  PA2_ver34_ask_TA.cpp
+./PA2_ver34_ask_TA input.txt output.txt
+
+g++ -o 110501521_PA2 110501521_PA2.cpp
+./110501521_PA2 input.txt output.txt
+
+
+//昀翰的部分
+g++ -o PA2  PA2.cpp
+./PA2 input.txt output.txt

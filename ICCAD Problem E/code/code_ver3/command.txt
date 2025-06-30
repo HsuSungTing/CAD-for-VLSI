@@ -1,0 +1,29 @@
+幫我寫一個C++ function，可以依照我給定的string中的起始index和終止index拆分字串，例如:給定1和1，就把 a*(vv&&Y)拆成a和*和(vv&&Y)
+
+
+幫我寫一個C++ function，可以檢查當前string中是否有depth=0的operator，如果有多個depth=0的operator的話，依照以下以下的優先度選擇operator(如果有多個優先度相同的Operator就選最左邊的)，return 選定的operator在string中的index(起始和結束index都要)
+以下是高到低:
+1: >, <, >=, <=, ==, !=
+2:&, | , ^
+3:+, -
+4:*, /
+
+
+g++ -std=c++11 -o AST_CP3 AST_CP3.cpp
+./AST_CP3
+
+
+g++ -std=c++11 -o AST_CP3_ver2 AST_CP3_ver2.cpp
+./AST_CP3_ver2
+
+
+g++ -std=c++11 -o CAD CAD.cpp
+./CAD top_module.v sub_module.v new_sub_module.v update_information new_top_module.v
+
+
+g++ -std=c++11 -o CAD_ver2 CAD_ver2.cpp
+./CAD_ver2 top_module.v sub_module.v new_sub_module.v update_information new_top_module.v
+
+g++ CAD.cpp AST.cpp -o CAD
+./CAD top_module.v sub_module.v new_sub_module.v update_information new_top_module.v
+

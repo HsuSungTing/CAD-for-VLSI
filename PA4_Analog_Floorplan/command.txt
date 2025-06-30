@@ -1,0 +1,99 @@
+chmod +x PA4_checker
+./PA4_checker case1.block case1.output
+./PA4_checker case2.block case2.output
+./PA4_checker case3.block case3.output
+./PA4_checker case4.block case4.output
+./PA4_checker case5.block case5.output
+
+
+
+g++ -std=c++11 Parser.cpp -o Parser
+./Parser case1.block case1.output
+./Parser case2.block case2.output
+
+g++ -std=c++11 PA4_ver1.cpp Parser.cpp -o PA4_ver1
+./PA4_ver1 case1.block case1.output
+./PA4_ver1 case2.block case2.output
+
+
+g++ -std=c++11 PA4_ver2.cpp Parser.cpp -o PA4_ver2
+./PA4_ver2 case1.block case1.output
+./PA4_ver2 case2.block case2.output
+./PA4_ver2 case3.block case3.output
+./PA4_ver2 case4.block case4.output
+./PA4_ver2 case5.block case5.output
+
+g++ -std=c++11 PA4_ver3.cpp Parser.cpp -o PA4_ver3
+./PA4_ver3 case0.block case0.output
+./PA4_ver3 case1.block case1.output
+
+
+g++ -std=c++11 PA4_ver4.cpp Parser.cpp -o PA4_ver4
+./PA4_ver4 case0.block case0.output
+./PA4_ver4 case1.block case1.output
+./PA4_ver4 case2.block case2.output
+
+g++ -std=c++11 PA4_ver5.cpp Parser.cpp -o PA4_ver5
+./PA4_ver5 case0.block case0.output
+./PA4_ver5 case1.block case1.output
+./PA4_ver5 case2.block case2.output
+
+g++ -std=c++11 PA4_ver6.cpp Parser.cpp -o PA4_ver6
+./PA4_ver6 case0.block case0.output
+./PA4_ver6 case1.block case1.output
+./PA4_ver6 case2.block case2.output
+
+g++ -std=c++11 PA4_ver7.cpp Parser.cpp -o PA4_ver7
+./PA4_ver7 case0.block case0.output
+./PA4_ver7 case1.block case1.output
+./PA4_ver7 case2.block case2.output
+
+g++ -std=c++11 PA4_ver8.cpp Parser.cpp -o PA4_ver8
+./PA4_ver8 case0.block case0.output
+./PA4_ver8 case1.block case1.output
+./PA4_ver8 case2.block case2.output
+
+
+g++ -std=c++11 PA4_ver9.cpp Parser.cpp -o PA4_ver9
+./PA4_ver9 case0.block case0.output
+./PA4_ver9 case1.block case1.output
+./PA4_ver9 case2.block case2.output
+
+
+g++ -std=c++11 PA4_ver10.cpp Parser.cpp -o PA4_ver10
+./PA4_ver10 case0.block case0.output
+./PA4_ver10 case1.block case1.output
+./PA4_ver10 case2.block case2.output
+
+g++ -std=c++11 PA4_ver11.cpp Parser.cpp -o PA4_ver11
+./PA4_ver11 case0.block case0.output
+./PA4_ver11 case1.block case1.output
+./PA4_ver11 case2.block case2.output
+./PA4_ver11 case3.block case3.output
+./PA4_ver11 case4.block case4.output
+./PA4_ver11 case5.block case5.output
+
+g++ -std=c++11 PA4_ver12.cpp Parser.cpp -o PA4_ver12
+./PA4_ver12 case0.block case0.output
+./PA4_ver12 case1.block case1.output
+./PA4_ver12 case2.block case2.output
+./PA4_ver12 case3.block case3.output
+./PA4_ver12 case4.block case4.output
+./PA4_ver12 case5.block case5.output
+
+
+g++ -std=c++11 PA4_ver13.cpp Parser.cpp -o PA4_ver13
+./PA4_ver13 case0.block case0.output
+./PA4_ver13 case1.block case1.output
+./PA4_ver13 case2.block case2.output
+./PA4_ver13 case3.block case3.output
+./PA4_ver13 case4.block case4.output
+./PA4_ver13 case5.block case5.output
+
+g++ -std=c++11 110501521_PA4_ver2.cpp Parser.cpp -o 110501521_PA4_ver2
+./110501521_PA4_ver2 case0.block case0.output
+./110501521_PA4_ver2 case1.block case1.output
+./110501521_PA4_ver2 case2.block case2.output
+./110501521_PA4_ver2 case3.block case3.output
+./110501521_PA4_ver2 case4.block case4.output
+./110501521_PA4_ver2 case5.block case5.output
